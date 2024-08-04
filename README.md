@@ -1,4 +1,5 @@
 # Work Waves Job Listings
+![Screenshot_20240804_161543](https://github.com/user-attachments/assets/28869bc7-4fe7-4839-b2c2-b0689e63aeae)
 
 This application allows users to post jobs, view job listings, perform global searches for available jobs, and filter jobs by tags. Both logged-in users and guests can view job listings.
 
