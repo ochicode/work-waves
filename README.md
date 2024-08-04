@@ -47,6 +47,7 @@ Ensure you have the following installed on your system:
 
     ```bash
     cp .env.example .env
+    php artisan key:generate
     ```
 
 5. **Database Migration**:
@@ -68,7 +69,17 @@ Ensure you have the following installed on your system:
     php artisan serve
     ```
 
-7. **View the Application**:
+7. **Serve the Application**:
+
+    ```bash
+    php artisan serve
+    ```
+    Open a different terminal and run
+    ```bash
+    npm run dev
+    ```
+
+8. **View the Application**:
    Open your web browser and navigate to:
     ```
     http://127.0.0.1:8000
