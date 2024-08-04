@@ -68,18 +68,12 @@ Ensure you have the following installed on your system:
     ```bash
     php artisan serve
     ```
-
-7. **Serve the Application**:
-
-    ```bash
-    php artisan serve
-    ```
     Open a different terminal and run
     ```bash
     npm run dev
     ```
 
-8. **View the Application**:
+7. **View the Application**:
    Open your web browser and navigate to:
     ```
     http://127.0.0.1:8000
