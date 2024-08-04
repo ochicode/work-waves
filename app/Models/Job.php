@@ -11,6 +11,8 @@ class Job extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['title'];
+
     public function tag(string $name): void
     {
         $tag = Tag::firstOrCreate(['name' => $name]);
